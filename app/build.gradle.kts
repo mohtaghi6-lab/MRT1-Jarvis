@@ -1,3 +1,8 @@
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+}
+
 android {
     namespace = "com.mrt.jarvis"
     compileSdk = 34
@@ -5,8 +10,4 @@ android {
     defaultConfig {
         applicationId = "com.mrt.jarvis"
         minSdk = 24
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
-    }
-}
+        targetSdk
