@@ -4,11 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mrt1jarvis" // آدرس نیمااسپیس برنامه خودتان
+    namespace = "com.mrt.jarvis" // دقیقاً مطابق ساختار پوشه‌های Java/Kotlin در عکس
+
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.mrt1jarvis" // آدرس بسته برنامه شما
+        applicationId = "com.mrt.jarvis" // دقیقاً مطابق ساختار پوشه‌ها
         minSdk = 24
         targetSdk = 34
         versionCode = 1
